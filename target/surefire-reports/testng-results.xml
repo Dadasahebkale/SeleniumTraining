@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-27T01:28:23 IST" name="Regression Testing" finished-at="2023-05-27T01:28:54 IST" duration-ms="30620">
+    <groups>
+    </groups>
+    <test started-at="2023-05-27T01:28:23 IST" name="Test" finished-at="2023-05-27T01:28:54 IST" duration-ms="30620">
+      <class name="com.dk.testcases.VerifyTitleOfByAutomation">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@2d9d4f9d]" started-at="2023-05-27T01:28:22 IST" name="setUP" finished-at="2023-05-27T01:28:23 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="getTitletest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@2d9d4f9d]" started-at="2023-05-27T01:28:23 IST" name="getTitletest" finished-at="2023-05-27T01:28:29 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitletest -->
+      </class> <!-- com.dk.testcases.VerifyTitleOfByAutomation -->
+      <class name="com.dk.testcases.VerifyInquiryRegisterTest1">
+        <test-method signature="getTitletest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@1a84f40f]" started-at="2023-05-27T01:28:33 IST" name="getTitletest" data-provider="data_Collection" finished-at="2023-05-27T01:28:39 IST" duration-ms="5930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Contact_No=353535353, Email_ID=dk@gmail.com, Message=Welcome to Selenium Training, Sr.No=1.0, First_Name=Dada}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitletest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@1a84f40f]" started-at="2023-05-27T01:28:42 IST" name="closeBrowser" finished-at="2023-05-27T01:28:44 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest1 -->
+      <class name="com.dk.testcases.VerifyInquiryRegisterTest">
+        <test-method signature="getTitletest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@23282c25]" started-at="2023-05-27T01:28:44 IST" name="getTitletest" data-provider="data_Collection" finished-at="2023-05-27T01:28:49 IST" duration-ms="4992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Contact_No=353535353, Email_ID=ganesh@dk.com, Message=I'm looking for DevOps, Sr.No=1.0, First_Name=Ganesh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitletest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@23282c25]" started-at="2023-05-27T01:28:52 IST" name="closeBrowser" finished-at="2023-05-27T01:28:54 IST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Testing -->
+</testng-results>

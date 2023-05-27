@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Regression Testing">
+<listeners>
+<listener class-name="com.dk.listeners.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.dk.testcases.VerifyTitleOfByAutomation"/>
+      <class name="com.dk.testcases.VerifyInquiryRegisterTest1"/>
+      <class name="com.dk.testcases.VerifyInquiryRegisterTest"/>
+      <class name="com.dk.testcases.VerifySeleniumButton"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
