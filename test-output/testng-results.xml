@@ -2,34 +2,34 @@
 <testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-29T17:21:59 IST" name="Regression Testing" finished-at="2023-05-29T17:22:32 IST" duration-ms="32915">
+  <suite started-at="2023-05-29T18:39:17 IST" name="Regression Testing" finished-at="2023-05-29T18:39:47 IST" duration-ms="29947">
     <groups>
     </groups>
-    <test started-at="2023-05-29T17:21:59 IST" name="Test" finished-at="2023-05-29T17:22:32 IST" duration-ms="32915">
+    <test started-at="2023-05-29T18:39:17 IST" name="Test" finished-at="2023-05-29T18:39:47 IST" duration-ms="29947">
       <class name="com.dk.testcases.VerifyTitleOfByAutomation">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T17:21:59 IST" name="setUP" finished-at="2023-05-29T17:21:59 IST" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T18:39:17 IST" name="setUP" finished-at="2023-05-29T18:39:17 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T17:21:59 IST" name="isSkip" finished-at="2023-05-29T17:21:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T18:39:17 IST" name="isSkip" finished-at="2023-05-29T18:39:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSkip -->
-        <test-method signature="getBymatAutomationTitletest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T17:21:59 IST" name="getBymatAutomationTitletest" finished-at="2023-05-29T17:22:05 IST" duration-ms="5303" status="PASS">
+        <test-method signature="getBymatAutomationTitletest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T18:39:17 IST" name="getBymatAutomationTitletest" finished-at="2023-05-29T18:39:21 IST" duration-ms="4088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBymatAutomationTitletest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T17:22:32 IST" name="endTest" finished-at="2023-05-29T17:22:32 IST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@7b9a4292]" started-at="2023-05-29T18:39:47 IST" name="endTest" finished-at="2023-05-29T18:39:47 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.dk.testcases.VerifyTitleOfByAutomation -->
       <class name="com.dk.testcases.VerifyInquiryRegisterTest1">
-        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@59309333]" started-at="2023-05-29T17:22:07 IST" name="isSkip" finished-at="2023-05-29T17:22:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@59309333]" started-at="2023-05-29T18:39:24 IST" name="isSkip" finished-at="2023-05-29T18:39:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSkip -->
-        <test-method signature="getTitletest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@59309333]" started-at="2023-05-29T17:22:07 IST" name="getTitletest" data-provider="data_Collection" finished-at="2023-05-29T17:22:11 IST" duration-ms="3885" status="PASS">
+        <test-method signature="getTitletest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@59309333]" started-at="2023-05-29T18:39:24 IST" name="getTitletest" data-provider="data_Collection" finished-at="2023-05-29T18:39:27 IST" duration-ms="3531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@
         </test-method> <!-- getTitletest -->
       </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest1 -->
       <class name="com.dk.testcases.VerifyInquiryRegisterTest">
-        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@5876a9af]" started-at="2023-05-29T17:22:13 IST" name="isSkip" finished-at="2023-05-29T17:22:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@5876a9af]" started-at="2023-05-29T18:39:29 IST" name="isSkip" finished-at="2023-05-29T18:39:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSkip -->
-        <test-method signature="getInquiryRegisterdetails(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@5876a9af]" started-at="2023-05-29T17:22:13 IST" name="getInquiryRegisterdetails" data-provider="data_Collection" finished-at="2023-05-29T17:22:16 IST" duration-ms="3229" status="PASS">
+        <test-method signature="getInquiryRegisterdetails(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@5876a9af]" started-at="2023-05-29T18:39:29 IST" name="getInquiryRegisterdetails" data-provider="data_Collection" finished-at="2023-05-29T18:39:34 IST" duration-ms="4119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,21 +59,21 @@
         </test-method> <!-- getInquiryRegisterdetails -->
       </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest -->
       <class name="com.dk.testcases.VerifySocialMediaLinkTest">
-        <test-method signature="AllSocialMediaLink()[pri:0, instance:com.dk.testcases.VerifySocialMediaLinkTest@5b239d7d]" started-at="2023-05-29T17:22:27 IST" name="AllSocialMediaLink" finished-at="2023-05-29T17:22:30 IST" duration-ms="2675" status="PASS">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifySocialMediaLinkTest@5b239d7d]" started-at="2023-05-29T18:39:42 IST" name="isSkip" finished-at="2023-05-29T18:39:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method signature="AllSocialMediaLink()[pri:0, instance:com.dk.testcases.VerifySocialMediaLinkTest@5b239d7d]" started-at="2023-05-29T18:39:42 IST" name="AllSocialMediaLink" finished-at="2023-05-29T18:39:45 IST" duration-ms="3281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllSocialMediaLink -->
-        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifySocialMediaLinkTest@5b239d7d]" started-at="2023-05-29T17:22:27 IST" name="isSkip" finished-at="2023-05-29T17:22:27 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSkip -->
       </class> <!-- com.dk.testcases.VerifySocialMediaLinkTest -->
       <class name="com.dk.testcases.VerifySeleniumButton">
-        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifySeleniumButton@7ec7ffd3]" started-at="2023-05-29T17:22:18 IST" name="isSkip" finished-at="2023-05-29T17:22:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifySeleniumButton@7ec7ffd3]" started-at="2023-05-29T18:39:36 IST" name="isSkip" finished-at="2023-05-29T18:39:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSkip -->
-        <test-method signature="clickonSeleniumButtonTest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifySeleniumButton@7ec7ffd3]" started-at="2023-05-29T17:22:18 IST" name="clickonSeleniumButtonTest" data-provider="data_Collection" finished-at="2023-05-29T17:22:25 IST" duration-ms="6776" status="PASS">
+        <test-method signature="clickonSeleniumButtonTest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifySeleniumButton@7ec7ffd3]" started-at="2023-05-29T18:39:36 IST" name="clickonSeleniumButtonTest" data-provider="data_Collection" finished-at="2023-05-29T18:39:40 IST" duration-ms="3792" status="PASS">
           <params>
             <param index="0">
               <value>
