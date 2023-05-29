@@ -10,6 +10,8 @@
       <class name="com.dk.testcases.VerifyInquiryRegisterTest1"/>
       <class name="com.dk.testcases.VerifyInquiryRegisterTest"/>
       <class name="com.dk.testcases.VerifySeleniumButton"/>
+      <class name="com.dk.testcases.VerifySocialMediaLinkTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
