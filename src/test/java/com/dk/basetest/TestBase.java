@@ -90,7 +90,7 @@ public static void getDriver() {
 	}
 	driver.manage().window().maximize();
 	driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
 	
 	driver.get(Config.getProperty("app_url_test"));
 	test=reports.startTest(testCaseName);

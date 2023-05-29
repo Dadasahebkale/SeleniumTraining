@@ -64,4 +64,8 @@ public class HomePage extends TestBase{
 		return new TrainingPage();
 				
 	}
+	public ActiveLinks SocialMediaLink() {
+		return new ActiveLinks();
+		//CommonMethods.clickCheckBoxAndRadioButton(L, testCaseName);
+	}
 }

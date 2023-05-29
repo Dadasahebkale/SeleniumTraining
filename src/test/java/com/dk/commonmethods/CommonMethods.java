@@ -44,6 +44,13 @@ public static void clickCheckBoxAndRadioButton(WebElement element, String messag
 	sel.selectByVisibleText(text);
 	test.log(LogStatus.PASS, message);
 }
-
+public static void waitForme() {
+	try {
+		Thread.sleep(2000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
 
 }

@@ -56,6 +56,7 @@ public class TrainingPage extends TestBase{
 		CommonMethods.enterDataToInputBox(firstname,hdata.get("First_Name"),"User Entered the first name");
 		CommonMethods.enterDataToInputBox(lastname, hdata.get("Last_Name"), "User Enetered Last name in the text box");
 		CommonMethods.enterDataToInputBox(email, hdata.get("Email_ID"), "User Enetered Email in the text box");
+		CommonMethods.waitForme();
 		CommonMethods.clickCheckBoxAndRadioButton(submit, "User clicked on submit button");
 		return this;
 	}
