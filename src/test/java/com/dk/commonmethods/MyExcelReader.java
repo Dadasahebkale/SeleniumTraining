@@ -490,9 +490,9 @@ public class MyExcelReader {
 				MyExcelReader datatable = null;
 				
 
-					/* datatable = new Xls_Reader(System.getProperty("user.dir")+"\\src\\com\\qtpselenium\\xls\\Controller.xlsx");
+					datatable = new MyExcelReader(System.getProperty("user.dir")+"src\\test\\resources\\testData\\Master_Sheet.xlsx");
 						for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
 							System.out.println(datatable.getCellData("TC5", col, 1)); 
-						} */
+						} 
 			}
 }

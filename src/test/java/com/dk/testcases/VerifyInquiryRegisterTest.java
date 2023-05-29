@@ -16,11 +16,11 @@ public class VerifyInquiryRegisterTest extends TestBase{
 	@BeforeClass
 	public void isSkip() {
 		testCaseName=this.getClass().getSimpleName();//{
-//		System.out.println("Test case name is : "+testCaseName);
-//		if(htRunMode.get(testCaseName).equalsIgnoreCase("Y"))
-//			System.out.println("Exceuting test case : "+testCaseName); else throw new
-//			SkipException("Skipping test case "+testCaseName+" as it's run mode is set to No");
-//	}	
+		System.out.println("Test case name is : "+testCaseName);
+		if(run_mode.get(testCaseName).equalsIgnoreCase("Y"))
+			System.out.println("Exceuting test case : "+testCaseName); else throw new
+			SkipException("Skipping test case "+testCaseName+" as it's run mode is set to No");
+		
 	}
 	
 

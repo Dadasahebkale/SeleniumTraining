@@ -69,7 +69,7 @@ excel=new ExcelReader(System.getProperty("user.dir")+"\\src\\test\\resources\\te
 String timeStamp=new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
 reports=new ExtentReports(System.getProperty("user.dir")+"\\src\\test\\resources\\executionReports\\ExtentReport_"+timeStamp+".html");
 
-
+loadRunModeHashtable();
 
 }
 public static void getDriver() {
@@ -135,12 +135,22 @@ public static void tearDown() {
 		reports.endTest(test);
 		reports.flush();
 	}
-	public void excel() {
-		Xls_Reader xl=new Xls_Reader("D:\\TestingFramework\\FrameWork\\src\\test\\resources\\testData\\Practice.xlsx");
-		System.out.println(xl.addSheet("dk"));
-		
-	}
 	
+     public static void loadRunModeHashtable() {
+		
+		int rows = excel.getRowCount("Test_Cases");
+		
+		for(int i = 2; i<=rows ; i++) {
+		
+		String key = excel.getCellData("Test_Cases", "TestCaseName", i);
+		
+		String value = excel.getCellData("Test_Cases", "Run_Mode", i);
+		
+		run_mode.put(key, value);
+		}
+		
+		System.out.println("HashTable Run Mode :- " +run_mode);
+	}
 	
 	
 	
