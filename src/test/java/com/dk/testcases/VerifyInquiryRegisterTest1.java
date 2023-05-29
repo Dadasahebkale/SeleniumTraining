@@ -28,14 +28,14 @@ public class VerifyInquiryRegisterTest1 extends TestBase{
 		hp.InquiryRegisterTest1().getDetailFromExcel1(hdata);
 	}
 	
-	@AfterMethod
-	public void closeBrowser() {
-		tearDown();
-	}
-	@DataProvider
-    public Object[][] data_Collection(){
-        DataCollection dc=new DataCollection(excel,"Test_Data","VerifyInquiryRegisterTest1");
-                return dc.dataArray();
-    }
+//	@AfterMethod
+//	public void closeBrowser() {
+//		tearDown();
+//	}
+//	@DataProvider
+//    public Object[][] data_Collection(){
+//        DataCollection dc=new DataCollection(excel,"Test_Data","VerifyInquiryRegisterTest1");
+//                return dc.dataArray();
+//    }
 }
 

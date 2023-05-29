@@ -1,17 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-28T14:49:12 IST" name="Default suite" finished-at="2023-05-28T14:49:13 IST" duration-ms="504">
+  <suite started-at="2023-05-29T15:01:04 IST" name="Regression Testing" finished-at="2023-05-29T15:01:26 IST" duration-ms="22536">
     <groups>
     </groups>
-    <test started-at="2023-05-28T14:49:12 IST" name="Default test" finished-at="2023-05-28T14:49:13 IST" duration-ms="504">
-      <class name="com.dk.basic.ExcelUtils">
-        <test-method signature="excelUtilTest()[pri:0, instance:com.dk.basic.ExcelUtils@6ca8564a]" started-at="2023-05-28T14:49:12 IST" name="excelUtilTest" finished-at="2023-05-28T14:49:13 IST" duration-ms="475" status="PASS">
+    <test started-at="2023-05-29T15:01:04 IST" name="Test" finished-at="2023-05-29T15:01:26 IST" duration-ms="22536">
+      <class name="com.dk.testcases.VerifyTitleOfByAutomation">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@4fb0f2b9]" started-at="2023-05-29T15:01:03 IST" name="setUP" finished-at="2023-05-29T15:01:04 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excelUtilTest -->
-      </class> <!-- com.dk.basic.ExcelUtils -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@4fb0f2b9]" started-at="2023-05-29T15:01:04 IST" name="isSkip" finished-at="2023-05-29T15:01:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method signature="getBymatAutomationTitletest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@4fb0f2b9]" started-at="2023-05-29T15:01:04 IST" name="getBymatAutomationTitletest" finished-at="2023-05-29T15:01:07 IST" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBymatAutomationTitletest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.dk.testcases.VerifyTitleOfByAutomation@4fb0f2b9]" started-at="2023-05-29T15:01:26 IST" name="endTest" finished-at="2023-05-29T15:01:26 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.dk.testcases.VerifyTitleOfByAutomation -->
+      <class name="com.dk.testcases.VerifyInquiryRegisterTest1">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@12468a38]" started-at="2023-05-29T15:01:09 IST" name="isSkip" finished-at="2023-05-29T15:01:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method signature="getTitletest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest1@12468a38]" started-at="2023-05-29T15:01:09 IST" name="getTitletest" data-provider="data_Collection" finished-at="2023-05-29T15:01:12 IST" duration-ms="3280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Contact_No=353535353, Email_ID=dk@gmail.com, Message=Welcome to Selenium Training, Sr.No=1.0, First_Name=Dada}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitletest -->
+      </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest1 -->
+      <class name="com.dk.testcases.VerifyInquiryRegisterTest">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@1aa7ecca]" started-at="2023-05-29T15:01:15 IST" name="isSkip" finished-at="2023-05-29T15:01:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method signature="getInquiryRegisterdetails(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifyInquiryRegisterTest@1aa7ecca]" started-at="2023-05-29T15:01:15 IST" name="getInquiryRegisterdetails" data-provider="data_Collection" finished-at="2023-05-29T15:01:18 IST" duration-ms="3177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Contact_No=353535353, Email_ID=ganesh@dk.com, Message=I'm looking for DevOps, Sr.No=1.0, First_Name=Ganesh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInquiryRegisterdetails -->
+      </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest -->
+      <class name="com.dk.testcases.VerifySeleniumButton">
+        <test-method is-config="true" signature="isSkip()[pri:0, instance:com.dk.testcases.VerifySeleniumButton@59309333]" started-at="2023-05-29T15:01:20 IST" name="isSkip" finished-at="2023-05-29T15:01:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method signature="clickonSeleniumButtonTest(java.util.Hashtable)[pri:0, instance:com.dk.testcases.VerifySeleniumButton@59309333]" started-at="2023-05-29T15:01:20 IST" name="clickonSeleniumButtonTest" data-provider="data_Collection" finished-at="2023-05-29T15:01:24 IST" duration-ms="3911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Contact_No=353535353, Email_ID=dk@gmail.com, Message=Welcome to Selenium Training, Sr.No=1.0, First_Name=Dadasaheb, Last_Name=Kale}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSeleniumButtonTest -->
+      </class> <!-- com.dk.testcases.VerifySeleniumButton -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Testing -->
 </testng-results>

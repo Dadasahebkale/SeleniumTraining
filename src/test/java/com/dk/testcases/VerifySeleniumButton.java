@@ -1,5 +1,7 @@
 package com.dk.testcases;
 
+import java.util.Hashtable;
+
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
@@ -17,11 +19,11 @@ public class VerifySeleniumButton extends TestBase{
 			SkipException("Skipping test case "+testCaseName+" as it's run mode is set to No");
 		
 	}
-	@Test
-	public void clickonSeleniumButtonTest() {
+	@Test(dataProvider = "data_Collection")
+	public void clickonSeleniumButtonTest(Hashtable<String, String> hdata) {
 		//test=reports.startTest("VerifyTitleOfByAutomation");
 		
-		hp.TrainingLinkTest().clickOnSeleniumButtonTest();
+		hp.TrainingLinkTest().clickOnSeleniumButtonTest(hdata);
 	}
 	
 //	@AfterMethod

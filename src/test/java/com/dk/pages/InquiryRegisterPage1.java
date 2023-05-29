@@ -50,7 +50,7 @@ public class InquiryRegisterPage1 extends TestBase{
 	@FindBy(xpath = "//*[@id=\"wpforms-1830-field_10_2\"]")
 	private WebElement DevOpsCheckbox;
 	
-	@FindBy(xpath = "//*[@id=\"wpforms-18301-field_2\"]")
+	@FindBy(xpath = "//*[@id=\"wpforms-1830-field_2\"]")
 	private WebElement messageBox;
 	
 	@FindBy(xpath = "//*[@id=\"wpforms-submit-1830\"]")

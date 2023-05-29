@@ -6,15 +6,14 @@
   </listeners>
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
-      <class name="com.dk.testcases.VerifyInquiryRegisterTest1">
+      <class name="com.dk.testcases.VerifySeleniumButton">
         <methods>
-          <include name="isSkip"/>
-          <include name="closeBrowser"/>
+          <include name="clickonSeleniumButtonTest" invocation-numbers="0"/>
           <include name="setUP"/>
           <include name="endTest"/>
-          <include name="getTitletest" invocation-numbers="0"/>
+          <include name="isSkip"/>
         </methods>
-      </class> <!-- com.dk.testcases.VerifyInquiryRegisterTest1 -->
+      </class> <!-- com.dk.testcases.VerifySeleniumButton -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression Testing] -->

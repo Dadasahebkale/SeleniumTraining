@@ -1,5 +1,7 @@
 package com.dk.pages;
 
+import java.util.Hashtable;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -49,6 +51,14 @@ public class TrainingPage extends TestBase{
 		CommonMethods.clickCheckBoxAndRadioButton(training, "User clicked on Training link page");
 		return this;
 	}
+	public TrainingPage clickOnSeleniumButtonTest(Hashtable<String, String> hdata) {
+		CommonMethods.clickCheckBoxAndRadioButton(selenium_btn, "User clicked on Selenium button");
+		CommonMethods.enterDataToInputBox(firstname,hdata.get("First_Name"),"User Entered the first name");
+		CommonMethods.enterDataToInputBox(lastname, hdata.get("Last_Name"), "User Enetered Last name in the text box");
+		CommonMethods.enterDataToInputBox(email, hdata.get("Email_ID"), "User Enetered Email in the text box");
+		CommonMethods.clickCheckBoxAndRadioButton(submit, "User clicked on submit button");
+		return this;
+	}
 //	public TrainingPage clickOnSeleniumButtonTest() {
 //		CommonMethods.clickCheckBoxAndRadioButton(selenium_btn, "User clicked on Selenium button");
 //		CommonMethods.enterDataToInputBox(firstname, "Dada", "User Enetered first name in the text box");
@@ -57,12 +67,4 @@ public class TrainingPage extends TestBase{
 //		CommonMethods.clickCheckBoxAndRadioButton(submit, "User clicked on submit button");
 //		return this;
 //	}
-	public TrainingPage clickOnSeleniumButtonTest() {
-		CommonMethods.clickCheckBoxAndRadioButton(selenium_btn, "User clicked on Selenium button");
-		CommonMethods.enterDataToInputBox(firstname, "Dada", "User Enetered first name in the text box");
-		CommonMethods.enterDataToInputBox(lastname, "Kale", "User Enetered Last name in the text box");
-		CommonMethods.enterDataToInputBox(email, "abc@gmail.com", "User Enetered Email in the text box");
-		CommonMethods.clickCheckBoxAndRadioButton(submit, "User clicked on submit button");
-		return this;
-	}
 }

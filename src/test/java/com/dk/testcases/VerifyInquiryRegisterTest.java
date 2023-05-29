@@ -30,10 +30,10 @@ public class VerifyInquiryRegisterTest extends TestBase{
 		hp.InquiryRegisterTest().getDetailFromExcel(hdata);
 	}
 	
-	@AfterMethod
-	public void closeBrowser() {
-		tearDown();
-	}
+//	@AfterMethod
+//	public void closeBrowser() {
+//		tearDown();
+//	}
 //	@DataProvider
 //    public Object[][] data_Collection(){
 //        DataCollection dc=new DataCollection(excel,"Test_Data","VerifyInquiryRegisterTest");
