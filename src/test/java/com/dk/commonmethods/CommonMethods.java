@@ -65,7 +65,6 @@ public static void waitForElementtoAppear(WebElement element) {
 	f_wait=new FluentWait<WebDriver>(driver)
 			.withTimeout(Duration.ofSeconds(30))
 			.pollingEvery(Duration.ofSeconds(5))
-			.ignoring(NoSuchElementException.class);
-			
+			.ignoring(NoSuchElementException.class);		
 }	
 }
