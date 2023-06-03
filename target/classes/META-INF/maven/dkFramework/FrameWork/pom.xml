@@ -34,18 +34,18 @@
 <dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-	<!-- 	<dependency>
+	<dependency>
 		<groupId>org.seleniumhq.selenium</groupId> 
 		<artifactId>selenium-java</artifactId> 
 		<version>4.9.0</version>
-		 </dependency> -->
+		 </dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
 			<version>3.141.59</version>
-		</dependency>
+		</dependency> 
 
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
